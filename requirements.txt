@@ -1,0 +1,7 @@
+scipy==1.5.4
+utm==0.7.0
+tifffile==2020.12.8
+numpy==1.17.4
+pysolar==0.9
+imageio==2.9.0
+imagecodecs==2021.8.26

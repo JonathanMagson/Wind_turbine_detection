@@ -1,0 +1,79 @@
+Driver: GTiff/GeoTIFF
+Files: band2_masked.tif
+Size is 2350, 1468
+Coordinate System is:
+PROJCRS["WGS 84 / UTM zone 55S",
+    BASEGEOGCRS["WGS 84",
+        DATUM["World Geodetic System 1984",
+            ELLIPSOID["WGS 84",6378137,298.257223563,
+                LENGTHUNIT["metre",1]]],
+        PRIMEM["Greenwich",0,
+            ANGLEUNIT["degree",0.0174532925199433]],
+        ID["EPSG",4326]],
+    CONVERSION["UTM zone 55S",
+        METHOD["Transverse Mercator",
+            ID["EPSG",9807]],
+        PARAMETER["Latitude of natural origin",0,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8801]],
+        PARAMETER["Longitude of natural origin",147,
+            ANGLEUNIT["degree",0.0174532925199433],
+            ID["EPSG",8802]],
+        PARAMETER["Scale factor at natural origin",0.9996,
+            SCALEUNIT["unity",1],
+            ID["EPSG",8805]],
+        PARAMETER["False easting",500000,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8806]],
+        PARAMETER["False northing",10000000,
+            LENGTHUNIT["metre",1],
+            ID["EPSG",8807]]],
+    CS[Cartesian,2],
+        AXIS["(E)",east,
+            ORDER[1],
+            LENGTHUNIT["metre",1]],
+        AXIS["(N)",north,
+            ORDER[2],
+            LENGTHUNIT["metre",1]],
+    USAGE[
+        SCOPE["unknown"],
+        AREA["World - S hemisphere - 144°E to 150°E - by country"],
+        BBOX[-80,144,-60,150]],
+    ID["EPSG",32755]]
+Data axis to CRS axis mapping: 1,2
+Origin = (677600.000000000000000,5955040.000000000000000)
+Pixel Size = (10.000000000000000,-10.000000000000000)
+Metadata:
+  absolute_orbit=37236
+  AREA_OR_POINT=Area
+  datatake_id=GS2B_20240423T000219_037236_N05.10
+  date=2024-04-23T00:02:19.024Z
+  downloaded_by=TSD on 2020-12-14T05:43:47.780607
+  epsg=32636
+  filename=2020-11-14_S2A_orbit_021_tile_36SXJ_L1C
+  granule_date=2024-04-23 07:00:35
+  lat_band=S
+  metadata_source=scihub
+  mgrs_id=55HFV
+  processing_level=Level-2A
+  relative_orbit=30
+  satellite=S2B
+  satellite_azimuth={'B01': 187.934792357385, 'B02': 100.104397116157, 'B03': 190.182968950075, 'B04': 188.988871848967, 'B05': 188.545805603655, 'B06': 188.214301255161, 'B07': 187.959211522455, 'B08': 191.120530145509, 'B09': 187.836483805117, 'B10': 189.257664150943, 'B11': 188.253201251753, 'B12': 187.733406834466, 'B8A': 187.776955841553}
+  satellite_zenith={'B01': 3.10121985675694, 'B02': 4.61622736233254, 'B03': 2.55904311500331, 'B04': 2.68181414967434, 'B05': 2.75617647137974, 'B06': 2.83489455295043, 'B07': 2.91819302272807, 'B08': 2.50088298196686, 'B09': 3.19691879670278, 'B10': 2.65451067524155, 'B11': 2.83104193650065, 'B12': 3.03331014226395, 'B8A': 3.00492098135251}
+  sqid=XJ
+  thumbnail=https://scihub.copernicus.eu/dhus/odata/v1/Products('ca128494-bc1d-4306-8804-023fdceb72e0')/Products('Quicklook')/$value
+  title=S2B_MSIL2A_20240423T000219_N0510_R030_T55HFV_20240423T013617
+  urls=
+  utm_zone=55
+Image Structure Metadata:
+  INTERLEAVE=BAND
+Corner Coordinates:
+Upper Left  (  677600.000, 5955040.000) (148d59' 1.94"E, 36d32' 0.77"S)
+Lower Left  (  677600.000, 5940360.000) (148d59'14.15"E, 36d39'56.91"S)
+Upper Right (  701100.000, 5955040.000) (149d14'46.34"E, 36d31'44.01"S)
+Lower Right (  701100.000, 5940360.000) (149d15' 0.16"E, 36d39'40.07"S)
+Center      (  689350.000, 5947700.000) (149d 7' 0.66"E, 36d35'50.70"S)
+Band 1 Block=128x128 Type=UInt16, ColorInterp=Gray
+  Min=976.000 Max=6736.000
+  Minimum=976.000, Maximum=6736.000, Mean=1508.779, StdDev=114.677
+  NoData Value=65535
